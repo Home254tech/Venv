@@ -156,3 +156,6 @@ def test(request):
 
 
      return render(request, 'test.html', {'pform':pform})
+
+def home(request):
+    pass
